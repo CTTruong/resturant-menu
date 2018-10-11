@@ -1,0 +1,125 @@
+*{
+  list-style: none;
+
+}
+
+
+a{
+text-decoration: none;
+color: white;
+}
+
+
+
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: yellow;
+
+
+}
+
+
+.heading{
+
+  padding-top: 5%;
+  display: block;
+  font-size: 14px;
+
+
+}
+
+
+
+
+.picture{
+max-width: 70px;
+max-height: 70px;
+
+}
+
+
+.coffee{
+max-width: 150px;
+max-height: 150px;
+position: fixed;
+
+left: 5px;
+top: 5px;
+
+
+}
+
+
+
+body{
+
+  background-image: url('panels.png');
+  background-repeat: repeat;
+  position: relative;
+
+  color: white;
+
+}
+
+h1{
+text-align: center;
+
+}
+
+.card{
+background-color: #394655;
+position: absolute;
+margin: 5%;
+padding: 10px;
+}
+
+
+
+
+
+.main-nav{
+display: block;
+position: fixed;
+right: 20%;
+top: 50%;
+
+}
+
+
+
+
+
+.main-nav li{
+padding-top: 10%;
+
+}
+
+
+
+
+.divider li{
+background-color: #FFFBF7;
+color: #2A303F;
+margin-top: 5%;
+max-width: 60%;
+padding-top: 5%;
+height: 120px;
+font-size: 15px;
+display: flex;
+overflow: auto;
+box-shadow: 10%;
+}
+
+
+
+
+
+
+
+
+
+.price{
+display: inline-flex;
+
+
+}
